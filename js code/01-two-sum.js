@@ -1,3 +1,7 @@
+// 1. Two Sum
+//  * https://leetcode.com/problems/two-sum/
+//  * Difficulty: Easy
+
 let nums = [2, 7, 11, 15];
 target = 9;
 
