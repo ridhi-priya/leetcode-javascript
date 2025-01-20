@@ -1,3 +1,7 @@
+// 9. Palindrome Number
+//  https://leetcode.com/problems/palindrome-number/
+// * Difficulty: Easy
+
 var isPalindrome = function (x) {
   if (x < 0) return false;
   let xstr = x.toString().trim();
