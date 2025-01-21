@@ -16,6 +16,7 @@ var fib = function (n) {
 };
 fib(6);
 
+//using recursion
 const fibonacci = (n) => {
   if (n <= 1) return n;
   return fib(n - 2) + fib(n - 1);
