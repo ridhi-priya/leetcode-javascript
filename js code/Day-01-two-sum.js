@@ -16,8 +16,15 @@ target = 13;
 //   }
 // sol2
 var twoSum = function (nums, target) {
-  
+  let obj = {};
+  for (let i = 0; i < nums.length; i++) {
+    let n = nums[i];
+    if (obj[target - n] >= 0) {
+      return [obj[target - n], i];
+    }
+    obj[n] = i;
   }
+  return [];
 
   // sol3
   // var twoSum = function (nums, target) {
