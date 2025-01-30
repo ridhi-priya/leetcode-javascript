@@ -25,11 +25,11 @@
 // console.log(fibonacci(6)); // 8
 
 //sol3 using recursion
-const fibo = (n, memo = {}) => {
+const fiboNo = (n, memo = {}) => {
   if (n <= 1) return n;
   if (n in memo) return memo[n];
-  memo[n] = fibo(n - 1, memo) + fibo(n - 2, memo);
+  memo[n] = fiboNo(n - 1, memo) + fiboNo(n - 2, memo);
   return memo[n];
 };
 
-console.log(fibo(6)); // 8
+console.log(fiboNo(6)); // 8
